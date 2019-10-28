@@ -1,4 +1,4 @@
-var transposit = require('../../../chapter1/section1/src/1.1.13');
+var transposit = require('../../../chapter1/section1/1.1.13');
 var expect = require('chai').expect;
 
 describe('1.1.13的测试', function () {
