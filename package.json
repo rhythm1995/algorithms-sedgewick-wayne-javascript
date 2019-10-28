@@ -1,0 +1,25 @@
+{
+  "name": "algorithms-sedgewick-wayne-javascript",
+  "version": "1.0.0",
+  "description": "Javascript's solutions  to the exercises of the Algorithms book by Robert Sedgewick and Kevin Wayne(4th editon).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm1995/algorithms-sedgewick-wayne-javascript.git"
+  },
+  "author": "bugzhang",
+  "license": "MIT",
+  "bugs": {	
+    "url": "https://github.com/rhythm1995/algorithms-sedgewick-wayne-javascript/issues"
+  },
+  "homepage": "https://github.com/rhythm1995/algorithms-sedgewick-wayne-javascript#readme",
+  "dependencies": {
+    "add": "^2.0.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "yarn": "^1.19.1"
+  }
+}
