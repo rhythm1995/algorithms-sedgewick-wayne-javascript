@@ -1,5 +1,5 @@
 var range = require('../../../src/chapter1/section2/1.2.1').range;
-var Point2D = require('../../../chapter1/section2/1.2.1').Point2D;
+var Point2D = require('../../../src/chapter1/section2/1.2.1').Point2D;
 var expect = require('chai').expect;
 
 const point1 = new Point2D(0, 0);

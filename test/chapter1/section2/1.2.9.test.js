@@ -1,4 +1,4 @@
-var BinarySearch = require('../../../chapter1/section2/1.2.9');
+var BinarySearch = require('../../../src/chapter1/section2/1.2.9');
 var expect = require('chai').expect;
 
 

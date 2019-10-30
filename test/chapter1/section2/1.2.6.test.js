@@ -1,4 +1,4 @@
-var curcular = require('../../../chapter1/section2/1.2.6');
+var curcular = require('../../../src/chapter1/section2/1.2.6');
 var expect = require('chai').expect;
 
 
