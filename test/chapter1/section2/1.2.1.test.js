@@ -1,4 +1,4 @@
-var range = require('../../../chapter1/section2/1.2.1').range;
+var range = require('../../../src/chapter1/section2/1.2.1').range;
 var Point2D = require('../../../chapter1/section2/1.2.1').Point2D;
 var expect = require('chai').expect;
 
