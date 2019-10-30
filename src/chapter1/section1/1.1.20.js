@@ -3,7 +3,6 @@
  */
 
 function factorial(N) {
-	let temp = 0;
 	if (N === 1) {
 		return 1;
 	} else {
