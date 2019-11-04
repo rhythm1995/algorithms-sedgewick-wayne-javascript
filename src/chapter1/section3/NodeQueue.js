@@ -16,7 +16,7 @@ class Queue {
 		this.length = 0; // length of Queue
 	}
 
-	push(elemenet) {
+	enqueue(elemenet) {
 		let current = null;
 		let node = new Node(elemenet);
 
@@ -34,7 +34,7 @@ class Queue {
 		}
 	}
 
-	pop() {
+	denqueue() {
 		let current = null;
 		
 		if (this.length !== 0) {

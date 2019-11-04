@@ -7,8 +7,8 @@ class Queue  {
 		this.dataStore = dataStore;
 	}
 
-	enqueue(item) {
-		this.dataStore.push(item);
+	enqueue(element) {
+		this.dataStore.push(element);
 	}
 
 	dequeue() {
@@ -17,8 +17,8 @@ class Queue  {
 
 	toString() {
 		var ret = '';
-		this.dataStore.forEach((item) => {
-			ret +=  item;
+		this.dataStore.forEach((element) => {
+			ret +=  element;
 		});
 		return ret;
 	}

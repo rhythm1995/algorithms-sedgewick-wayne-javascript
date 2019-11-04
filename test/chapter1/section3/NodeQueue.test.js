@@ -3,11 +3,11 @@ var expect = require('chai').expect;
 
 describe('1.3.NodeQueue', function () {
 	let testQueue = new Queue();
-	testQueue.push(1);
-	testQueue.push(2);
-	testQueue.push(3);
-	testQueue.push(4);
-	testQueue.pop();
+	testQueue.enqueue(1);
+	testQueue.enqueue(2);
+	testQueue.enqueue(3);
+	testQueue.enqueue(4);
+	testQueue.denqueue();
 
 	it('1.3.NodeQueue——toString()的测试结果', function () {
 		expect(testQueue.toString()).to.be.equal('234');
