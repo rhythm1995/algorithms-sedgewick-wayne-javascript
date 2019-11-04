@@ -47,12 +47,25 @@ class Queue {
 		}
 	}
 
+	toString() {
+		var str = '',
+		current = this.front;
+
+		while(current){
+			str += current.element;
+			current = current.next;
+		}
+
+		return str;
+	};
+
 	clear() {
 		this.front = null;
 		this.rear = null;
 		this.length = 0;
-		return true;
+		return this;
 	}
+
 }
 
 module.exports = Queue;
