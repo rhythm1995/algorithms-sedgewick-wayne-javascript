@@ -3,11 +3,8 @@
  */
 
 class Queue  {
-	constructor() {
-		this.dataStore = [];
-    this.front = front;
-    this.back = back;
-    this.length = length;
+	constructor(dataStore = []) {
+		this.dataStore = dataStore;
 	}
 
 	enqueue(item) {
@@ -27,11 +24,12 @@ class Queue  {
 	}
 
 	length() {
-		return this.length;
+		return this.dataStore.length;
 	}
 
 	clear() {
-		this.length = 0;
+	 this.dataStore.length = 0;
+	 return this;
 	}
 }
 
