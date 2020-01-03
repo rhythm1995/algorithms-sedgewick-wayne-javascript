@@ -4,6 +4,7 @@
   "description": "Javascript's solutions  to the exercises of the Algorithms book by Robert Sedgewick and Kevin Wayne(4th editon).",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run test",
     "test": "mocha test/**/**/*.js"
   },
   "repository": {
@@ -12,14 +13,18 @@
   },
   "author": "bugzhang",
   "license": "MIT",
-  "bugs": {	
+  "bugs": {
     "url": "https://github.com/rhythm1995/algorithms-sedgewick-wayne-javascript/issues"
   },
   "homepage": "https://github.com/rhythm1995/algorithms-sedgewick-wayne-javascript#readme",
   "dependencies": {
     "add": "^2.0.6",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2",
     "yarn": "^1.19.1"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1"
   }
 }
