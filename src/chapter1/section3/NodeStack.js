@@ -16,14 +16,14 @@ class Stack {
 	}
 
 	push() {
-		
+
 	}
 
 	pop() {
 
 	}
 
-	
+
 }
 
 module.exports = Stack;
