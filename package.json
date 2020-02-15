@@ -20,7 +20,7 @@
   "dependencies": {
     "add": "^2.0.6",
     "chai": "^4.2.0",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",
